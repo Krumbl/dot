@@ -1,8 +1,14 @@
 http://vimdoc.sourceforge.net/htmldoc/help.html
-## Setup
+https://github.com/vim/vim/blob/03c3bd9fd094c1aede2e8fe3ad8fd25b9f033053/runtime/doc/repeat.txt#L515
+
+## Requirements
+- Clone recursively for plugins
 ```git clone --recursive https://github.com/username/reponame.git```
-```ln -sf reponame ~/.vim```
-```ln -sf reponame/vimrc ~/.vimrc```
+
+
+## Setup
+```ln -sf dot/vim/ ~/.vim```
+```ln -sf dot/vim/vimrc ~/.vimrc```
 ```vim```
 ```:helptags ALL```
 
